@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap_oc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass sass/main.scss css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remymerienne/Bootstrap_OC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/remymerienne/Bootstrap_OC/issues"
+  },
+  "homepage": "https://github.com/remymerienne/Bootstrap_OC#readme",
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "sass": "^1.52.1"
+  }
+}

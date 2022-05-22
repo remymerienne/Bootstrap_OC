@@ -1,0 +1,19 @@
+{
+  "folders": [
+    {
+      "name": "Bootstrap_OC",
+      "path": "./"
+    },
+    {
+      "path": "../../../Dropbox/wSave/WORK/MEMO"
+    },
+    {
+      "path": "../../cours-Bootstrap-5-main"
+    }
+  ],
+  "settings": {
+    "window.zoomLevel": 0,
+    "liveServer.settings.port": 5500,
+    "liveServer.settings.multiRootWorkspaceName": "Bootstrap_OC"
+  }
+}
