@@ -3,38 +3,68 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bootstrap</title>
+  <title>Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
 <body>
 
+  <!-- Navigation -->
   <header>
     <nav class="bg-light">
-      <div class="container bg-secondary py-3"></div>
+      <div class="container">
+        <div class="bg-secondary py-3"></div>
+      </div>
     </nav>
   </header>
+  <!-- Navigation - End -->
 
   <main>
 
+    <!-- Présentation -->
     <section>
       <div class="container py-4">
         <div class="row">
-          <div class="col ps-0">
+          <div class="col">
             <h1>Je suis Rémy Merienne, Développeur et Designer Web</h1>
             <h2>Bienvenue dans mon univers créatif</h2>
             <button>Mon expertise Web</button>
           </div>
-          <div class="col pe-0">
+          <div class="col">
             <img src="img/portrait.jpg" class="w-100" alt="">
           </div>
         </div>
       </div>
     </section>
+    <!-- Présentation - End -->
 
-    <section></section>
+    <!-- Expertise -->
+    <section class="bg-light py-4">
+      <div class="container">
+        <h3>Mon expertise</h3>
+        <h4>Développement Web et Design</h4>
+        <div class="row mt-4">
+          <div class="col-7">
+            <div class="bg-secondary w-100 h-100"></div>
+          </div>
+          <div class="col-4 offset-1">
+            <img src="img/code.jpg" alt="" class="w-100">
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-4">
+            <img src="img/design.jpg" alt="" class="w-100">
+          </div>
+          <div class="col-7 offset-1">
+            <div class="bg-secondary w-100 h-100"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Expertise - End -->
 
   </main>
 
