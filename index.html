@@ -6,8 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
+  <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- Bootstrap-icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <!-- Font-Awesome -->
+  <script src="https://kit.fontawesome.com/9bd8ff85e3.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -27,11 +32,11 @@
     <!-- Présentation -->
     <section>
       <div class="container py-5">
-        <div class="row gy-5 gy-md-0">
+        <div class="row align-items-center gy-5 gy-md-0">
           <div class="col-12 col-md-6">
-            <h1>Je suis Rémy Merienne, Développeur et Designer Web</h1>
-            <h2>Bienvenue dans mon univers créatif</h2>
-            <button>Mon expertise Web</button>
+            <h1 class="fw-bold">Je suis Rémy Merienne, Développeur et Designer Web</h1>
+            <h2 class="fw-light">Bienvenue dans mon univers créatif</h2>
+            <button type="button" class="btn btn-primary mt-5">Mon expertise Web</button>
           </div>
           <div class="col-12 col-md-6">
             <img src="img/test.jpg" class="w-100" alt="">
@@ -40,12 +45,12 @@
       </div>
     </section>
     <!-- Présentation - End -->
-    
+
     <!-- Expertise -->
     <section class="bg-light">
       <div class="container py-5">
-        <h3>Mon expertise</h3>
-        <h4>Développement Web et Design</h4>
+        <h2 class="mb-0">Mon expertise</h2>
+        <h3 class="fw-light fs-5">Développement Web et Design</h3>
         <!-- Ligne avec code  -->
         <div class="row mt-1 mt-md-5 gy-5 gy-md-0">
           <div class="col-12 col-md-7">
@@ -69,12 +74,12 @@
       </div>
     </section>
     <!-- Expertise - End -->
-    
+
     <!-- Portfolio -->
     <section>
       <div class="container py-5">
-        <h3>Mon portfolio</h3>
-        <h4>Projets perso et pro</h4>
+        <h2 class="mb-0">Mon portfolio</h2>
+        <h3 class="fw-light fs-5">Projets perso et pro</h3>
         <div class="row">
           <div class="col-12 col-sm-6 col-md-4 col-lg-3 gy-5 gy-sm-4">
             <div class="bg-secondary py-5"></div>
@@ -96,8 +101,8 @@
     <!-- Projet -->
     <section class="bg-light">
       <div class="container py-5">
-        <h3>Un projet de création Web ?</h3>
-        <h4>Allons en discuter autour d'un café</h4>
+        <h2 class="mb-0">Un projet de création Web ?</h2>
+        <h3 class="fw-light fs-5">Allons en discuter autour d'un café</h3>
         <div class="row mt-1 mt-md-5 gy-5 gy-md-0">
           <div class="col-12 col-md-5">
             <img src="img/grab-a-coffee.jpg" alt="" class="w-100">
@@ -109,19 +114,23 @@
       </div>
     </section>
     <!-- Projet - End -->
-    
+
     <!-- footer -->
     <footer>
       <div class="container py-5">
-        <div class="row gy-5">
+        <div class="row align-items-center gy-5">
           <div class="col-12 col-md-4">
             <div class="bg-secondary py-5"></div>
           </div>
           <div class="col-12 col-md-4">
             <div class="bg-secondary py-5"></div>
           </div>
-          <div class="col-12 col-md-4">
-            <div class="bg-secondary py-5"></div>
+          <div class="col-12 col-md-4 text-md-end">
+            <ul class="list-inline ">
+              <li class="list-inline-item"><i class="fa-brands fa-linkedin fa-2x"></i></li>
+              <li class="list-inline-item"><i class="fa-brands fa-instagram-square fa-2x"></i></li>
+              <li class="list-inline-item"><i class="fa-brands fa-twitter-square fa-2x"></i></li>
+            </ul>
           </div>
         </div>
       </div>
@@ -133,7 +142,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
   </script>
-
 </body>
 
 </html>
