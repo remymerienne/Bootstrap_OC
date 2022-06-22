@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass sass/main.scss css/style.css --watch"
+    "sass": "sass sass/main.scss css/style.css --watch",
+    "server": "live-server --port=5510"
   },
   "repository": {
     "type": "git",
