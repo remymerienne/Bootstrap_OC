@@ -24,14 +24,14 @@
           }
         ]
       },
-      {
-        "splitTerminals": [
-          {
-            "name": "Server",
-            "commands": ["npm run server"]
-          }
-        ]
-      },
+      // {
+      //   "splitTerminals": [
+      //     {
+      //       "name": "Server",
+      //       "commands": ["npm run server"]
+      //     }
+      //   ]
+      // },
       {
         "splitTerminals": [
           {
