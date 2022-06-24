@@ -363,7 +363,36 @@
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <button
+                    class="btn btn-primary"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#infoProjet2"
+                    aria-controls="offcanvasBottom"
+                  >
+                    En savoir plus
+                  </button>
+                  <!-- + Offcanvas N2 -->
+                  <div
+                    class="offcanvas offcanvas-bottom h-100"
+                    tabindex="-1"
+                    id="infoProjet2"
+                    aria-labelledby="titleProjet2"
+                  >
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="titleProjet2">
+                        Modal N2
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close text-reset"
+                        data-bs-dismiss="offcanvas"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="offcanvas-body"></div>
+                  </div>
+                  <!-- + Offcanvas N2 - End -->
                 </div>
               </div>
             </div>
