@@ -846,12 +846,53 @@
         <div class="container py-5">
           <h2 class="mb-0">Un projet de création Web ?</h2>
           <h3 class="fw-light fs-5">Allons en discuter autour d'un café</h3>
-          <div class="row mt-1 mt-md-5 gy-5 gy-md-0">
+          <div class="row align-items-center mt-1 mt-md-5 gy-5 gy-md-0">
             <div class="col-12 col-md-5">
               <img src="img/grab-a-coffee.jpg" alt="" class="w-100" />
             </div>
             <div class="col-12 col-md-6 offset-md-1">
-              <div class="bg-secondary w-100 h-100 py-5"></div>
+              <!-- - Form -->
+
+              <form class="row gy-3">
+                <div class="col-6">
+                  <label for="textInput" class="form-label">Prénom</label>
+                  <input type="text" id="textInput" class="form-control" />
+                </div>
+
+                <div class="col-6">
+                  <label for="text2Input" class="form-label">Nom</label>
+                  <input type="text" id="text2Input" class="form-control" />
+                </div>
+
+                <div class="col-12">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                  />
+                </div>
+
+                <div class="col-12">
+                  <label for="exampleFormControlTextarea1" class="form-label"
+                    >Message</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                  ></textarea>
+                </div>
+
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary w-100">
+                    Envoyer
+                  </button>
+                </div>
+              </form>
+              <!-- - Form - End -->
             </div>
           </div>
         </div>
