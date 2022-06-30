@@ -3,15 +3,6 @@
     {
       "name": "Bootstrap_OC",
       "path": "./"
-    },
-    {
-      "path": "../../../Dropbox/wSave/WORK/MEMO"
-    },
-    {
-      "path": "../../../Dropbox/wSave/WORK/Matrice"
-    },
-    {
-      "path": "../../cours-Bootstrap-5-main"
     }
   ],
   "settings": {
@@ -27,14 +18,6 @@
           }
         ]
       },
-      // {
-      //   "splitTerminals": [
-      //     {
-      //       "name": "Server",
-      //       "commands": ["npm run server"]
-      //     }
-      //   ]
-      // },
       {
         "splitTerminals": [
           {
@@ -42,6 +25,14 @@
           }
         ]
       }
+      // {
+      //   "splitTerminals": [
+      //     {
+      //       "name": "Server",
+      //       "commands": ["npm run server"]
+      //     }
+      //   ]
+      // }
     ]
   }
 }
