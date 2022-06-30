@@ -13,14 +13,15 @@
   <body>
     <!-- ! Header -->
     <header>
+      <!-- - Nav -->
       <nav class="navbar navbar-expand-md bg-light fixed-top">
         <div class="container">
-          <a class="navbar-brand text-uppercase fw-bold" href="./index.html">
+          <span class="navbar-brand text-uppercase fw-bold">
             <span class="bg-primary bg-gradient p-1 rounded-3 text-light"
               >Rémy</span
             >
             Merienne
-          </a>
+          </span>
           <button
             class="navbar-toggler"
             type="button"
@@ -53,6 +54,7 @@
           </div>
         </div>
       </nav>
+      <!-- - Nav - End -->
     </header>
     <!-- ! Header - End -->
     <!-- ! Main -->
@@ -301,8 +303,8 @@
           <h2 class="mb-0">Mon portfolio</h2>
           <h3 class="fw-light fs-5">Projets perso et pro</h3>
           <div class="row">
-            <!-- + Card N1 -->
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 gy-5 gy-sm-4">
+              <!-- + Card N1 -->
               <div class="card">
                 <img
                   src="https://picsum.photos/600/300?random=1"
@@ -320,7 +322,7 @@
                     type="button"
                     data-bs-toggle="offcanvas"
                     data-bs-target="#infoProjet1"
-                    aria-controls="offcanvasBottom"
+                    aria-controls="infoProjet1"
                   >
                     En savoir plus
                   </button>
@@ -433,10 +435,10 @@
                   <!-- ^ Offcanvas N1 - End -->
                 </div>
               </div>
+              <!-- + Card N1 - End -->
             </div>
-            <!-- + Card N1 - End -->
-            <!-- + Card N2 -->
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 gy-5 gy-sm-4">
+              <!-- + Card N2 -->
               <div class="card">
                 <img
                   src="https://picsum.photos/600/300?random=2"
@@ -454,7 +456,7 @@
                     type="button"
                     data-bs-toggle="offcanvas"
                     data-bs-target="#infoProjet2"
-                    aria-controls="offcanvasBottom"
+                    aria-controls="infoProjet2"
                   >
                     En savoir plus
                   </button>
@@ -567,10 +569,10 @@
                   <!-- ^ Offcanvas N2 - End -->
                 </div>
               </div>
+              <!-- + Card N2 - End -->
             </div>
-            <!-- + Card N2 - End -->
-            <!-- + Card N3 -->
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 gy-5 gy-sm-4">
+              <!-- + Card N3 -->
               <div class="card">
                 <img
                   src="https://picsum.photos/600/300?random=3"
@@ -588,7 +590,7 @@
                     type="button"
                     data-bs-toggle="offcanvas"
                     data-bs-target="#infoProjet3"
-                    aria-controls="offcanvasBottom"
+                    aria-controls="infoProjet3"
                   >
                     En savoir plus
                   </button>
@@ -701,10 +703,10 @@
                   <!-- ^ Offcanvas N3 - End -->
                 </div>
               </div>
+              <!-- + Card N3 - End -->
             </div>
-            <!-- + Card N3 - End -->
-            <!-- + Card N4 -->
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 gy-5 gy-sm-4">
+              <!-- + Card N4 -->
               <div class="card">
                 <img
                   src="https://picsum.photos/600/300?random=4"
@@ -722,7 +724,7 @@
                     type="button"
                     data-bs-toggle="offcanvas"
                     data-bs-target="#infoProjet4"
-                    aria-controls="offcanvasBottom"
+                    aria-controls="infoProjet4"
                   >
                     En savoir plus
                   </button>
@@ -835,8 +837,8 @@
                   <!-- ^ Offcanvas N4 - End -->
                 </div>
               </div>
+              <!-- + Card N4 - End -->
             </div>
-            <!-- + Card N4 - End -->
           </div>
         </div>
       </section>
@@ -894,16 +896,25 @@
       <div class="container py-5">
         <div class="row align-items-center gy-5">
           <div class="col-12 col-md-4">
-            <!-- - prem bloc -->
-            <div class="bg-secondary py-5"></div>
+            <!-- - Logo (ou voir pour hn...)  -->
+            <p class="mb-0 fs-5 fw-bold text-uppercase">
+              <span class="bg-primary bg-gradient p-1 rounded-3 text-light"
+                >Rémy</span
+              >
+              Merienne
+            </p>
+            <!-- - Logo (ou voir pour hn...) - End  -->
           </div>
-          <div class="col-12 col-md-4">
-            <!-- - deuxi bloc -->
-            <div class="bg-secondary py-5"></div>
+          <div class="col-12 col-md-4 text-md-center">
+            <!-- - Modal mentions légales -->
+            <a href="#" class="text-decoration-none text-dark"
+              >Mentions légales</a
+            >
+            <!-- - Modal mentions légales - End -->
           </div>
           <div class="col-12 col-md-4 text-md-end">
-            <!-- - Liste de réseaux sociaux -->
-            <ul class="list-inline">
+            <!-- - Liste des réseaux sociaux -->
+            <ul class="mb-0 list-inline">
               <li class="list-inline-item">
                 <i class="fa-brands fa-linkedin fa-2x"></i>
               </li>
@@ -914,6 +925,7 @@
                 <i class="fa-brands fa-twitter-square fa-2x"></i>
               </li>
             </ul>
+            <!-- - Liste des réseaux sociaux - End -->
           </div>
         </div>
       </div>
