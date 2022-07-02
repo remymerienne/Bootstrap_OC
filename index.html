@@ -894,7 +894,7 @@
     <!-- ! Footer -->
     <footer>
       <div class="container py-5">
-        <div class="row align-items-center gy-5">
+        <div class="row align-items-center gy-4">
           <div class="col-12 col-md-4">
             <!-- - Logo (ou voir pour hn...)  -->
             <p class="mb-0 fs-5 fw-bold text-uppercase">
@@ -906,11 +906,15 @@
             <!-- - Logo (ou voir pour hn...) - End  -->
           </div>
           <div class="col-12 col-md-4 text-md-center">
-            <!-- - Modal mentions légales -->
-            <a href="#" class="text-decoration-none text-dark"
+            <!-- - Mentions légales -->
+            <a
+              href="#"
+              class="text-decoration-none text-dark"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
               >Mentions légales</a
             >
-            <!-- - Modal mentions légales - End -->
+            <!-- - Mentions légales - End -->
           </div>
           <div class="col-12 col-md-4 text-md-end">
             <!-- - Liste des réseaux sociaux -->
@@ -929,6 +933,53 @@
           </div>
         </div>
       </div>
+      <!-- - Modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                Mentions légales
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <p>
+                ipsum dolor sit amet consectetur adipisicing elit. Non natus
+                ducimus dolore tempora, at labore repellat voluptatem deserunt
+                asperiores, modi rem. Sapiente eum dolor nemo? Reprehenderit
+                error in officiis et! Eligendi aperiam veritatis reiciendis
+                neque ad earum magnam officiis vero, voluptate reprehenderit ab
+                mollitia rerum, blanditiis adipisci voluptates a minima, in
+                cumque inventore libero quisquam non aspernatur. Corporis, sequi
+                provident.
+              </p>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi
+                voluptatem praesentium provident quibusdam doloribus tempore
+                deserunt totam, architecto explicabo facilis ratione, dolores
+                ipsum, earum labore quae. Numquam commodi quasi reiciendis.
+                Sequi et ad ut quis ipsa placeat sapiente quaerat culpa, in
+                beatae distinctio sed quisquam dolores facere laboriosam tempora
+                deleniti dignissimos quae nostrum fugit ipsum tempore? Iste aut
+                nihil blanditiis?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- - Modal - End -->
     </footer>
     <!-- ! Footer - End -->
     <script src="./js/bootstrap.bundle.js"></script>
