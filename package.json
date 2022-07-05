@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass sass/main.scss css/style.css --watch",
-    "server": "live-server --port=5510",
-    "purge": "purgecss --css ./css/style.css --content ./index.html ./js/bootstrap.bundle.js --output ./css/style.min.css -font -keyframes"
+    "purge": "purgecss --css ./css/style.css --content ./index.html ./js/bootstrap.bundle.js --output ./css/style.min.css -font -keyframes",
+    "prefix": "postcss ./css/style.min.css --use autoprefixer -d ./css/"
   },
   "repository": {
     "type": "git",
@@ -15,6 +15,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "browserslist": "last 4 versions",
   "bugs": {
     "url": "https://github.com/remymerienne/Bootstrap_OC/issues"
   },
