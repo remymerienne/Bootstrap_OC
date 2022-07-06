@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass sass/main.scss css/style.css --watch",
-    "purge": "purgecss --css ./css/style.css --content ./index.html ./js/bootstrap.bundle.js --output ./css/style.min.css -font -keyframes",
-    "prefix": "postcss ./css/style.min.css --use autoprefixer -d ./css/"
+    "sass": "sass sass/main.scss css/style.css --watch --style compressed",
+    "purge": "purgecss --css ./css/style.css --content ./index.html ./js/bootstrap.bundle.min.js --output ./css/ -font -keyframes",
+    "prefix": "postcss ./css/style.css --use autoprefixer -d ./css/"
   },
   "repository": {
     "type": "git",
