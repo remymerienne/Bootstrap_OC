@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass sass/main.scss css/style.css --watch --style compressed",
+    "sass": "sass sass/main.scss css/style.css --watch",
     "purge": "purgecss --css ./css/style.css --content ./index.html ./js/bootstrap.bundle.min.js --output ./css/ -font -keyframes",
     "prefix": "postcss ./css/style.css --use autoprefixer -d ./css/"
   },
