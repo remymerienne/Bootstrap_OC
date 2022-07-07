@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass sass/main.scss css/style.css --watch",
+    "sass": "sass sass/main.scss css/style.css",
     "purge": "purgecss --css ./css/style.css --content ./index.html ./js/bootstrap.bundle.min.js --output ./css/ -font -keyframes",
     "prefix": "postcss ./css/style.css --use autoprefixer -d ./css/"
   },
@@ -21,7 +21,10 @@
   },
   "homepage": "https://github.com/remymerienne/Bootstrap_OC#readme",
   "devDependencies": {
-    "eslint": "^8.16.0",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^10.0.0",
+    "purgecss": "^4.1.3",
     "sass": "^1.52.1"
   }
 }
